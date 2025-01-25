@@ -35,7 +35,7 @@ apt install qemu-guest-agent ; bash -x /etc/init.d/qemu-guest-agent  start
 qm guest cmd  300 get-osinfo
 
 
-ответ должен бытть что-то вроде
+### ответ должен бытть что-то вроде ###
 
 
 {
@@ -49,3 +49,6 @@ qm guest cmd  300 get-osinfo
    "version-id" : "12"
 }
 
+### Список команд: ###
+
+qm help guest cmd
