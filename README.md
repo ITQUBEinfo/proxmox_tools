@@ -52,3 +52,13 @@ qm guest cmd  300 get-osinfo
 ### Список команд: ###
 
 qm help guest cmd
+
+
+  <command>  <fsfreeze-freeze | fsfreeze-status | fsfreeze-thaw | fstrim |
+             get-fsinfo | get-host-name | get-memory-block-info |
+             get-memory-blocks | get-osinfo | get-time | get-timezone |
+             get-users | get-vcpus | info | network-get-interfaces | ping |
+             shutdown | suspend-disk | suspend-hybrid | suspend-ram>
+             The QGA command.
+
+
