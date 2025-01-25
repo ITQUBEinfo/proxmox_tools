@@ -28,5 +28,24 @@
 
 ### Внутри виртуалки выполняем: ###
 
-apt install qemu-guest-agent
+apt install qemu-guest-agent ; bash -x /etc/init.d/qemu-guest-agent  start
+
+### После этого на хосте выполняем ###
+
+qm guest cmd  300 get-osinfo
+
+
+ответ должен бытть что-то вроде
+
+
+{
+   "id" : "debian",
+   "kernel-release" : "6.1.0-30-amd64",
+   "kernel-version" : "#1 SMP PREEMPT_DYNAMIC Debian 6.1.124-1 (2025-01-12)",
+   "machine" : "x86_64",
+   "name" : "Debian GNU/Linux",
+   "pretty-name" : "Debian GNU/Linux 12 (bookworm)",
+   "version" : "12 (bookworm)",
+   "version-id" : "12"
+}
 
