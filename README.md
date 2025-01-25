@@ -26,3 +26,7 @@
 
 ![2025-01-25_04-40-24](https://github.com/user-attachments/assets/97ccd069-cfb8-4db0-922e-45d0fb0ffd59)
 
+Внутри виртуалки выполняем:
+
+apt install qemu-guest-agent
+
