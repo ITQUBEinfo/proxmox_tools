@@ -1,5 +1,6 @@
 # proxmox_tools - Tools for Proxmox server
 
+### Первое что мы делаем: ставим virt-manager и spice-guest-tools-latest.exe ###
 
 ## Пройдемся по настройкам виртуалки, чтобы она работала в контуре Proxmox так, как нам нужно. ##
 
